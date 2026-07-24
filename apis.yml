@@ -1,7 +1,26 @@
 aid: codility
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/codility.png
 name: Codility
-description: Codility is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Codility is a technical skills assessment and technical interview platform used by
+  engineering and talent teams to screen, interview, and benchmark software developers.
+  The platform provides real-world coding challenges (CodeCheck), an in-browser and
+  VS Code-based technical interview environment (CodeLive), and Skills Intelligence for
+  mapping and measuring engineering capabilities across an organization. Codility serves
+  more than 20,000 engineering teams, is SOC 2 Type II and ISO 27001 certified, GDPR
+  compliant, and hosts data in both US and EU regions. This API Evangelist profile
+  captures the company's public developer, product, trust, and operational surface.
 url: https://raw.githubusercontent.com/api-evangelist/codility/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Technical Assessment
+- Developer Hiring
+- Coding Assessment
+- Technical Interview
+- Skills Intelligence
+- Recruiting
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,39 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://codility.com
+  url: https://www.codility.com
+- type: Pricing
+  url: https://www.codility.com/pricing/
+- type: Login
+  url: https://login.codility.com/
+- type: Support
+  url: https://support.codility.com/hc/en-us
+- type: HelpCenter
+  url: https://support.codility.com/hc/en-us
+- type: Blog
+  url: https://www.codility.com/blog
+- type: TermsOfService
+  url: https://www.codility.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.codility.com/data-privacy-notice/
+- type: GitHubOrganization
+  url: https://github.com/Codility
+- type: ChangeLog
+  url: https://www.codility.com/release-notes/
+- type: StatusPage
+  url: https://status.codility.com/
+- type: Lifecycle
+  url: lifecycle/codility-lifecycle.yml
+- type: Compliance
+  url: https://www.codility.com/compliance
+- type: TrustCenter
+  url: security/codility-trust-center.yml
+- type: Conformance
+  url: conformance/codility-conformance.yml
+- type: DomainSecurity
+  url: security/codility-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

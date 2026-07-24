@@ -1,0 +1,24 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.codility.com/release-notes/
+versioning:
+  scheme: continuous
+  notes: >-
+    Codility ships a continuously-updated SaaS platform (Screen/CodeCheck,
+    Interview/CodeLive, Skills Intelligence) with dated product release notes rather
+    than a numbered public API version.
+changelog: https://www.codility.com/release-notes/
+status_page: https://status.codility.com/
+status_page_provider: Status.io
+status_components:
+- Candidate Screen Application (US & EU)
+- Interview Application (US & EU)
+- Codility Platform (US & EU)
+regions:
+- US
+- EU
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No public API deprecation policy or RFC 8594 Sunset/Deprecation header support located.
+deprecated_operations: []
